@@ -15,13 +15,13 @@
 
 .category {
     height: 60px;
-    width: fit-content;
+    width: 120px;
     display: flex;
     gap: 10px;
     text-transform: capitalize;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    justify-content: center;
     color: #fff;
     border-radius: 10px;
     transition: 0.2s;
@@ -52,4 +52,29 @@
 
 .category:active {
     transform: scale(0.99);
+}
+
+@media screen and (max-width: 1080px) {
+    .category {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .category {
+        width: 40%;
+       
+    }
+    .categories {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .category {
+        width: 100%;
+    }
+    .categories {
+        gap: 10px;
+    }
 }

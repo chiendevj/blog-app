@@ -1,0 +1,141 @@
+.container {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.blink {
+    color: var(--softTextColor);
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.container h3 {
+    font-size: 1.3em;
+}
+
+/* Section 1 */
+.menu1 .items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.menu1 .item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.menu1 .postContent {
+    padding: 0;
+}
+
+.menu1 .namecate {
+    width: fit-content;
+    padding: 1px 10px;
+    background: #ff6b81;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+/* Section 2 */
+
+.menu2 .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.category {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+    text-transform: capitalize;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.category.style {
+    background: #fab1a0;
+}
+
+.category.fashion {
+    background: #81ecec;
+}
+.category.food {
+    background: #74b9ff;
+}
+.category.travel {
+    background: #a29bfe;
+}
+.category.culture {
+    background: #ff6b81;
+}
+.category.coding {
+    background: #78e08f;
+}
+/* Section 3 */
+.menu3 .items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.menu3 .item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.menu3 .imgContainer {
+    flex: 1;
+    aspect-ratio: 1/1;
+    position: relative;
+    
+}
+.menu3 .image {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu3 .postContent {
+    flex: 4;
+    padding-left: 20px;
+}
+
+.menu3 .namecate {
+    padding: 1px 10px;
+    background: #78e08f;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 0.8em;
+  
+}
+
+.title {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.detail {
+    margin-top: 10px;
+    display: flex;
+    font-size: 0.65em;
+    gap: 5px;
+}
+
+.time {
+    color: var(--softTextColor);
+}

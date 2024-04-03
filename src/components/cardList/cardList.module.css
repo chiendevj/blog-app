@@ -1,0 +1,57 @@
+.container {
+    width: 70%;
+    height: auto;
+}
+
+.titlePosts {
+    margin-bottom: 20px;
+}
+
+.posts {
+    width: 100%;
+}
+
+.post {
+    display: flex;
+    margin: 20px 0;
+}
+
+
+.imagePost {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contentPost {
+    padding: 0 20px;
+    flex: 1;
+    margin: auto 0;
+
+}
+
+.typeCategory {
+    margin-bottom: 20px;
+}
+
+.typeCategory span {
+    color: #78e08f;
+    font-weight: 500;
+}
+.titlePost {
+    text-align: end;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.description {
+    padding: 30px 0;
+}
+
+.readMore {
+    color: var(--textColor);
+    border-bottom: 1px solid #78e08f;
+}

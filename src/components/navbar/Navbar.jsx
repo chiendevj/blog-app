@@ -16,7 +16,7 @@ const Navbar = () => {
 
             </div>
             <div className={styles.logo}>
-                Lamablog
+                Chiendevj
             </div>
             <div className={styles.links}>
                 <ThemeToggle/>
