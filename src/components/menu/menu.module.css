@@ -1,0 +1,10 @@
+.container {
+    width: 40%;
+    height: auto;
+}
+
+.content .menu {
+    width: 40%;
+    flex: 1;
+
+}
