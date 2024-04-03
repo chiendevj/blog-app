@@ -1,13 +1,7 @@
 .container {
-    width: 60%;
+    width: 70%;
     height: auto;
 }
-
-.content .cardlist {
-    width: 60%;
-    flex: 1;
-}
-
 
 .titlePosts {
     margin-bottom: 20px;
@@ -15,7 +9,6 @@
 
 .posts {
     width: 100%;
-    
 }
 
 .post {
@@ -40,8 +33,25 @@
 
 }
 
+.typeCategory {
+    margin-bottom: 20px;
+}
+
+.typeCategory span {
+    color: #78e08f;
+    font-weight: 500;
+}
 .titlePost {
     text-align: end;
     font-size: 1.2em;
     margin-bottom: 20px;
+}
+
+.description {
+    padding: 30px 0;
+}
+
+.readMore {
+    color: var(--textColor);
+    border-bottom: 1px solid #78e08f;
 }
