@@ -7,7 +7,7 @@ export default function Home() {
   return <>
     <Featured/>
     <CategoriesList/>
-    <div className={styles.container}>
+    <div className={styles.content}>
       <CardList/>
       <Menu/>
     </div>

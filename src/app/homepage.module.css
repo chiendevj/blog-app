@@ -1,0 +1,5 @@
+.content {
+    margin-top: 60px;
+    flex-direction: row;
+    display: flex;
+}

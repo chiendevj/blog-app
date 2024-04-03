@@ -19,6 +19,7 @@
     position: relative;
     border-radius: 10px;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .image {
@@ -61,7 +62,26 @@
 @media screen and (max-width: 800px) {
     .post {
         flex-direction: column;
-        height: 500px;
+        height: auto;
     }
 
+}
+
+@media screen and (max-width: 678px) {
+    .post {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .title {
+        font-size: 2.3em;
+    }
+
+    .imgContainer {
+        display: none;
+    }
+
+    .textContainer h1 {
+        font-size: 1.3em;
+    }
 }
