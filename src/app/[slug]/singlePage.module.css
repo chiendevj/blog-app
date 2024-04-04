@@ -55,8 +55,23 @@
     margin-top: 30px;
 }
 
-.commentContainer {
+.postContainer {
     flex: 4;   
     display: flex;
     flex-direction: column; 
+    margin-right: 20px;
+
+
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
 }

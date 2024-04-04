@@ -2,10 +2,12 @@
 UI: 
  - interface index: done
  - interface blog: done
- - interface post: doing (CSS)
+ - interface post: done
+ - interface login: doing ...
 UX:
  - doing ...
 ===========================
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
