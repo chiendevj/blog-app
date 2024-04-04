@@ -2,7 +2,7 @@ import React from "react";
 import styles from './comment.module.css'
 import Image from "next/image";
 import Link from "next/link";
-const status = 'authenticated';
+const status = 'notauthenticated';
 const Comment = () => {
     return (
         <div className={styles.container}>
@@ -15,7 +15,7 @@ const Comment = () => {
                     <button type="submit" className={styles.btn}>Send</button>
                 </div>
             ) : (
-                <Link href={'/'} className={styles.login}>Login to write comment</Link>
+                <Link href={'/login'} className={styles.login}>Login to write comment</Link>
             )}
 
             <div className={styles.comments}>

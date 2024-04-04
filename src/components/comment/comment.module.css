@@ -25,7 +25,9 @@
 }
 
 .login {
-
+    display: block;
+    text-align: center;
+    
 }
 
 .comments {

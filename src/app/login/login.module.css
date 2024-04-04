@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.wrapper {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    background: var(--softBg);
+    padding: 150px 200px;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.socialButton {
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.socialButton:first-child {
+    background-color: #e74c3c;
+    box-shadow: 0 0 10px #e74c3c;
+
+}
+
+.socialButton:nth-child(2) {
+    background: #0d1117;
+    box-shadow: 0 0 10px #0d1117;
+
+}
+
+.socialButton:last-child {
+    box-shadow: 0 0 10px #0866ff;
+    background: #0866ff;
+}
