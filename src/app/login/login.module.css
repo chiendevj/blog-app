@@ -23,6 +23,11 @@
     padding: 20px;
     border-radius: 5px;
     text-align: center;
+    transition: 0.5s;
+}
+
+.socialButton:active {
+    transform: scale(0.98);
 }
 
 .socialButton:first-child {

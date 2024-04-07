@@ -5,7 +5,7 @@
 .editor {
     display: flex;
     gap: 20px;
-    height: 700px;
+    height: 500px;
     position: relative;
 }
 .button, .addButton {
@@ -25,6 +25,8 @@
 }
 .textArea {
     width: 100%;
+    background-color: var(--softBg);
+
 }
 
 .add {
@@ -38,6 +40,7 @@
 }
 
 .title {
+    width: 100%;
     padding: 50px;
     font-size: 46px;
     border: none;
