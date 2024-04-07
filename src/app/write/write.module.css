@@ -1,0 +1,61 @@
+.contsiner {
+
+}
+
+.editor {
+    display: flex;
+    gap: 20px;
+    height: 500px;
+    position: relative;
+}
+.button, .addButton {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--textColor);
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.addButton {
+    border-color: #148124;
+}
+.textArea {
+    width: 100%;
+    background-color: var(--softBg);
+
+}
+
+.add {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    background-color: var(--bg);
+    z-index: 99;
+    width: 100%;
+    left: 50px;
+}
+
+.title {
+    width: 100%;
+    padding: 50px;
+    font-size: 46px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.btnPublish {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #148124;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 30px;
+}

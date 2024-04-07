@@ -41,7 +41,10 @@
         justify-content: center;
         gap: 50px;
         font-size: 36px;
+        background-color: rgba(153, 153, 153);
+        backdrop-filter: blur(2px);
     }
+    
 }
 
 
